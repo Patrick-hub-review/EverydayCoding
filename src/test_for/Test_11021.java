@@ -18,7 +18,7 @@ public class Test_11021 {
 		int num = Integer.parseInt(br.readLine());
 		
 		for (int i = 1; i <= num; i++) {
-			st = new StringTokenizer(br.readLine());
+			st = new StringTokenizer(br.readLine());				//요게 '\n'과 같은 역할을 하는 건가..
 			int x = Integer.parseInt(st.nextToken());
 			int y = Integer.parseInt(st.nextToken());
 			if (x < 0 || y > 10) {
